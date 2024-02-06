@@ -2,6 +2,7 @@
 
 import DarkModeToggle from "./DarkModeToggle"
 import Logo from "./Logo"
+import UserButton from "./UserButton"
 
 function Header() {
   return (
@@ -19,6 +20,7 @@ function Header() {
 
             {/*Dark Mode Tooglle*/}
             <DarkModeToggle />
+            <UserButton />
         </div>
     </nav>
     {/*Upgrade Banner*/}
