@@ -9,6 +9,8 @@ import {
 import UserAvatar from "./UserAvatar"
   
 function UserButton() {
+  //Session data on whether one is logged in or not
+  
   return (
     <DropdownMenu>
   <DropdownMenuTrigger>
